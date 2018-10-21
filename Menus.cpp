@@ -159,14 +159,6 @@ void Menus::displayMenu_actor_sort_menu() {
     cout<<"10:- Exit the program."<<endl;
     cin>>choose;
 
-
-
-
-
-
-
-
-
 }
 
 
