@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/chu/CLionProjects/Desta_FinalProject/Menus.cpp
+Menus.h
+C:/Users/chu/CLionProjects/Desta_FinalProject/Menus.h
+conio.h
+-
+
+C:/Users/chu/CLionProjects/Desta_FinalProject/Menus.h
+iostream
+-
+
