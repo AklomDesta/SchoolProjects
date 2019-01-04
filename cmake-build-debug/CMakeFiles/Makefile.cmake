@@ -51,5 +51,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Desta_FinalProject.dir/DependInfo.cmake"
+  "CMakeFiles/Desta_final_project_binary_tree.dir/DependInfo.cmake"
   )

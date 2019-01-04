@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\chu\CLionProjects\Desta_FinalProject
+CMAKE_SOURCE_DIR = C:\Users\chu\CLionProjects\Desta_final_project_binary_tree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\chu\CLionProjects\Desta_FinalProject\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\chu\CLionProjects\Desta_final_project_binary_tree\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chu\CLionProjects\Desta_FinalProject\cmake-build-debug\CMakeFiles C:\Users\chu\CLionProjects\Desta_FinalProject\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chu\CLionProjects\Desta_final_project_binary_tree\cmake-build-debug\CMakeFiles C:\Users\chu\CLionProjects\Desta_final_project_binary_tree\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chu\CLionProjects\Desta_FinalProject\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chu\CLionProjects\Desta_final_project_binary_tree\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Desta_FinalProject
+# Target rules for targets named Desta_final_project_binary_tree
 
 # Build rule for target.
-Desta_FinalProject: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Desta_FinalProject
-.PHONY : Desta_FinalProject
+Desta_final_project_binary_tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Desta_final_project_binary_tree
+.PHONY : Desta_final_project_binary_tree
 
 # fast build rule for target.
-Desta_FinalProject/fast:
-	$(MAKE) -f CMakeFiles\Desta_FinalProject.dir\build.make CMakeFiles/Desta_FinalProject.dir/build
-.PHONY : Desta_FinalProject/fast
+Desta_final_project_binary_tree/fast:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/build
+.PHONY : Desta_final_project_binary_tree/fast
+
+Actor.obj: Actor.cpp.obj
+
+.PHONY : Actor.obj
+
+# target to build an object file
+Actor.cpp.obj:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Actor.cpp.obj
+.PHONY : Actor.cpp.obj
+
+Actor.i: Actor.cpp.i
+
+.PHONY : Actor.i
+
+# target to preprocess a source file
+Actor.cpp.i:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Actor.cpp.i
+.PHONY : Actor.cpp.i
+
+Actor.s: Actor.cpp.s
+
+.PHONY : Actor.s
+
+# target to generate assembly for a file
+Actor.cpp.s:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Actor.cpp.s
+.PHONY : Actor.cpp.s
+
+Database.obj: Database.cpp.obj
+
+.PHONY : Database.obj
+
+# target to build an object file
+Database.cpp.obj:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Database.cpp.obj
+.PHONY : Database.cpp.obj
+
+Database.i: Database.cpp.i
+
+.PHONY : Database.i
+
+# target to preprocess a source file
+Database.cpp.i:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Database.cpp.i
+.PHONY : Database.cpp.i
+
+Database.s: Database.cpp.s
+
+.PHONY : Database.s
+
+# target to generate assembly for a file
+Database.cpp.s:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Database.cpp.s
+.PHONY : Database.cpp.s
 
 Menus.obj: Menus.cpp.obj
 
@@ -128,7 +182,7 @@ Menus.obj: Menus.cpp.obj
 
 # target to build an object file
 Menus.cpp.obj:
-	$(MAKE) -f CMakeFiles\Desta_FinalProject.dir\build.make CMakeFiles/Desta_FinalProject.dir/Menus.cpp.obj
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Menus.cpp.obj
 .PHONY : Menus.cpp.obj
 
 Menus.i: Menus.cpp.i
@@ -137,7 +191,7 @@ Menus.i: Menus.cpp.i
 
 # target to preprocess a source file
 Menus.cpp.i:
-	$(MAKE) -f CMakeFiles\Desta_FinalProject.dir\build.make CMakeFiles/Desta_FinalProject.dir/Menus.cpp.i
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Menus.cpp.i
 .PHONY : Menus.cpp.i
 
 Menus.s: Menus.cpp.s
@@ -146,8 +200,62 @@ Menus.s: Menus.cpp.s
 
 # target to generate assembly for a file
 Menus.cpp.s:
-	$(MAKE) -f CMakeFiles\Desta_FinalProject.dir\build.make CMakeFiles/Desta_FinalProject.dir/Menus.cpp.s
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Menus.cpp.s
 .PHONY : Menus.cpp.s
+
+Nominations.obj: Nominations.cpp.obj
+
+.PHONY : Nominations.obj
+
+# target to build an object file
+Nominations.cpp.obj:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Nominations.cpp.obj
+.PHONY : Nominations.cpp.obj
+
+Nominations.i: Nominations.cpp.i
+
+.PHONY : Nominations.i
+
+# target to preprocess a source file
+Nominations.cpp.i:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Nominations.cpp.i
+.PHONY : Nominations.cpp.i
+
+Nominations.s: Nominations.cpp.s
+
+.PHONY : Nominations.s
+
+# target to generate assembly for a file
+Nominations.cpp.s:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Nominations.cpp.s
+.PHONY : Nominations.cpp.s
+
+Picture.obj: Picture.cpp.obj
+
+.PHONY : Picture.obj
+
+# target to build an object file
+Picture.cpp.obj:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Picture.cpp.obj
+.PHONY : Picture.cpp.obj
+
+Picture.i: Picture.cpp.i
+
+.PHONY : Picture.i
+
+# target to preprocess a source file
+Picture.cpp.i:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Picture.cpp.i
+.PHONY : Picture.cpp.i
+
+Picture.s: Picture.cpp.s
+
+.PHONY : Picture.s
+
+# target to generate assembly for a file
+Picture.cpp.s:
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/Picture.cpp.s
+.PHONY : Picture.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -155,7 +263,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Desta_FinalProject.dir\build.make CMakeFiles/Desta_FinalProject.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +272,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\Desta_FinalProject.dir\build.make CMakeFiles/Desta_FinalProject.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +281,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\Desta_FinalProject.dir\build.make CMakeFiles/Desta_FinalProject.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\Desta_final_project_binary_tree.dir\build.make CMakeFiles/Desta_final_project_binary_tree.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -182,12 +290,24 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Desta_final_project_binary_tree
 	@echo ... edit_cache
-	@echo ... Desta_FinalProject
 	@echo ... rebuild_cache
+	@echo ... Actor.obj
+	@echo ... Actor.i
+	@echo ... Actor.s
+	@echo ... Database.obj
+	@echo ... Database.i
+	@echo ... Database.s
 	@echo ... Menus.obj
 	@echo ... Menus.i
 	@echo ... Menus.s
+	@echo ... Nominations.obj
+	@echo ... Nominations.i
+	@echo ... Nominations.s
+	@echo ... Picture.obj
+	@echo ... Picture.i
+	@echo ... Picture.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
